@@ -10,8 +10,8 @@
 
 /* `agencia_alquiler1`.`alquiler` */
 $alquileres = array(
-  array('id_Alquiler' => '1','id_Cliente' => '1','id_Coche' => '1','precio_total' => '117.36','fecha_contrato' => '2022-04-02 11:00:00','fecha_inicio' => '2022-04-03 10:00:00','fecha_fin' => '2022-04-06 19:30:00','observacion' => '','estado' => 'Preparación'),
-  array('id_Alquiler' => '2','id_Cliente' => '15','id_Coche' => '3','precio_total' => '40.1','fecha_contrato' => '2022-04-03 13:55:38','fecha_inicio' => '2022-04-05 09:01:38','fecha_fin' => '2022-04-05 21:36:32','observacion' => '','estado' => 'Preparación')
+  array('id_Alquiler' => '1','id_Cliente' => '1','id_Coche' => '1','precio_total' => '117.36','fecha_contrato' => '2022-04-02 11:00:00','fecha_inicio' => '2022-04-03 10:00:00','fecha_fin' => '2022-04-06 19:30:00','observacion' => '','estado' => 'Finalizado'),
+  array('id_Alquiler' => '2','id_Cliente' => '15','id_Coche' => '3','precio_total' => '40.1','fecha_contrato' => '2022-04-03 13:55:38','fecha_inicio' => '2022-04-05 09:01:38','fecha_fin' => '2022-04-05 21:36:32','observacion' => '','estado' => 'Finalizado')
 );
 
 /* `agencia_alquiler1`.`cliente` */
