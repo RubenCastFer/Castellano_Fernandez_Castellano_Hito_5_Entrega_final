@@ -18,17 +18,17 @@ $(document).ready(function(){
             minlength: 3,
             maxlength: 3
           },
-          dd: {
-            required: true,
-            digits: true,
-            min: 1,
-            max: 31
-          },
           MM: {
             required: true,
             digits: true,
             min: 1,
             max: 12
+          },
+          YY: {
+            required: true,
+            digits: true,
+            min: 1,
+            max: 99
           },
 
         },
@@ -50,13 +50,13 @@ $(document).ready(function(){
             minlength: "Valor incorrecto",
             maxlength: "Valor incorrecto"
           },
-          dd: {
+          MM: {
             required: "Campo requerido",
             digits: "Introduzca solo dígitos",
             min: "Valor incorrecto",
             max: "Valor incorrecto"
           },
-          MM: {
+          YY: {
             required: "Campo requerido",
             digits: "Introduzca solo dígitos",
             min: "Valor incorrecto",
